@@ -184,16 +184,16 @@ rules:
   - DOMAIN-SUFFIX,jegotrip.com,DIRECT
   - DOMAIN-SUFFIX,jegotrip.com.cn,DIRECT
 
-  # WeChat stays direct
-  - DOMAIN-SUFFIX,wechat.com,DIRECT
-  - DOMAIN-SUFFIX,weixin.com,DIRECT
-  - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,wechatapp.com,DIRECT
-  - DOMAIN-SUFFIX,servicewechat.com,DIRECT
-  - DOMAIN-SUFFIX,wechatpay.com,DIRECT
-  - DOMAIN-SUFFIX,tenpay.com,DIRECT
-  - DOMAIN-SUFFIX,qpic.cn,DIRECT
-  - DOMAIN-SUFFIX,qlogo.cn,DIRECT
+  # WeChat go proxy
+  - DOMAIN-SUFFIX,wechat.com,PROXY
+  - DOMAIN-SUFFIX,weixin.com,PROXY
+  - DOMAIN-SUFFIX,weixin.qq.com,PROXY
+  - DOMAIN-SUFFIX,wechatapp.com,PROXY
+  - DOMAIN-SUFFIX,servicewechat.com,PROXY
+  - DOMAIN-SUFFIX,wechatpay.com,PROXY
+  - DOMAIN-SUFFIX,tenpay.com,PROXY
+  - DOMAIN-SUFFIX,qpic.cn,PROXY
+  - DOMAIN-SUFFIX,qlogo.cn,PROXY
 
   # Apple services stay direct
   - DOMAIN-SUFFIX,apple.com,DIRECT
